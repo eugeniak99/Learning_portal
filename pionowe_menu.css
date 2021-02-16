@@ -1,0 +1,82 @@
+html
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+#navcontainer
+{
+background: #33CC66;
+width: 70%;
+margin: 0 auto;
+padding: 1em 0;
+font-family: georgia, serif;
+font-size: 40px;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+height: 70%;
+
+}
+
+ul#navlist
+{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0 auto;
+width: 70%
+
+}
+
+ul#navlist li
+{
+display: block;
+margin: 0;
+padding: 0;
+background: #bfff80;
+}
+
+ul#navlist li a
+{
+display: block;
+width: 100%;
+padding: 0.5em 0 0.5em 2em;
+border-width: 1px;
+border-color: #ffe #aaab9c #ccc #fff;
+border-style: solid;
+color: green;
+text-decoration: none;
+
+}
+
+#navcontainer>ul#navlist li a { width: auto; }
+
+ul#navlist li#active a
+{
+background: #f0e7d7;
+color: #800000;
+}
+
+ul#navlist li a:hover, ul#navlist li#active a:hover
+{
+color: #284d00;
+background: white;
+border-color: #aaab9c #fff #fff #ccc;
+}
+body
+{
+	 margin: 1% 1% 1% 1%;
+	 background-image: url(szkoła-ręcznie-rysowane-ikony-wektor_23-2147496280.jpg);
+	 
+}
+#flip
+{
+	display:none;
+}
+#dropdown
+{
+	display:none;
+}
+#dropdpwn
+{
+	display:none;
+}

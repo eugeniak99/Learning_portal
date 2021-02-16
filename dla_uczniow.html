@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl" class="pionowe_menu">
+<head>
+<meta charset="utf-8">
+<title>Dla uczniów</title>
+<link rel="stylesheet" href="pionowe_menu.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="Shortcut icon" href="dziecko-nauka-języków-775x400.jpg"  />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+<body>
+<header>   
+<div id="navcontainer">
+         <ul id="navlist">
+             <li><a href="#">Zaloguj się</a></li>
+             <li><a href="formularz_uczniowie.html">Utwórz konto</a></li>
+             <li><a id="mozliwosci" href="#">Możliwości</a>
+			     <ul id="dropdown">
+				     <li><a href="#">Korepetycje</a></li>
+					 <li><a href="#">E-learning</a></li>
+					 <li><a href="#">Program szkolny</a></li>
+					 <li><a href="#">Kursy językowe</a></li>
+			 
+			     </ul>
+			</li>
+             <li><a href="#">Użyteczne linki</a></li>
+			 <li><a href="index.html">Powrót do strony głównej</a></li>
+         </ul>
+</div>
+</header>
+
+<script>
+ $('#mozliwosci').click(function(){
+    $('#dropdown').slideToggle()
+	
+  });
+ </script>
+</body>
+</html>
+

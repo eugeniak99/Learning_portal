@@ -1,0 +1,396 @@
+html
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+
+#navcontainer
+{
+background: #33CC66;
+margin: 0 auto;
+padding: 1em 0 0 0;
+
+
+
+}
+
+/* to stretch the container div to contain floated list */
+#navcontainer:after
+{
+content: ".";
+display: block;
+line-height: 1px;
+font-size: 1px;
+clear: both;
+}
+
+ul#navlist
+{
+list-style: none;
+padding: 0;
+margin: 0 auto;
+width: 80%;
+font-size: 0.8em;
+}
+
+ul#navlist li
+{
+display: block;
+float: left;
+width: 15%;
+
+margin: 0 auto;
+padding: 0;
+background: #bfff80;
+
+
+}
+
+ul#navlist li a
+{
+display: block;
+width: 100%;
+padding: 0.5em;
+border-width: 1px;
+border-color: #ffe #aaab9c #ccc #fff;
+border-style: solid;
+color: green;
+text-decoration: none;
+
+font-size: 30px;
+}
+
+#navcontainer>ul#navlist li a { width: auto; }
+
+ul#navlist li#active a
+{
+     background: #f0e7d7;
+     color: #800000;
+	 list-style-type: none;
+}
+
+ul#navlist li a:hover, ul#navlist li#active a:hover
+{
+color: #284d00;
+background: white;
+border-color: #aaab9c #fff #fff #ccc;
+}
+header
+{
+	 margin: 1% 1% 1% 1%;
+	 border-color:#336666;
+	 text-align:center;
+	 font-size: 60px;
+	 font-weight: bold;
+	 color: green;
+	
+}
+
+#logo
+{
+	 float: right;
+	 width: 30%;
+
+}
+body
+{
+	 margin: 1% 1% 1% 1%;
+	 background-image: url(szkoła-ręcznie-rysowane-ikony-wektor_23-2147496280.jpg);
+	 
+}
+article
+{
+	text-align: center;
+	font-size: 25px;
+	display:inline-block;
+	 
+	width: 100%;
+	
+	
+
+}
+
+ ul li 
+ {
+ list-style: none;
+ }
+
+section
+{
+
+	background-image: url(tlo_poboczne1.jpg);
+	background-size:cover;
+	border-style: dotted;
+	border-color: green;
+	width: 100%;
+	margin-top: 2%;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+#instrukcja
+{
+	
+	width: 100%;
+	
+	display: inline-block;
+	vertical-align: top;
+    text-align: right;
+	list-style-type: none;
+	
+}
+.wiadomosciwydarzenia
+{
+	display: block;
+	vertical-align: top;
+	font-size: 35px;
+	margin-left: 0;
+
+}
+	#wydarzenia
+{
+	width: 100%;
+
+	border-color: black;
+	font-size: 35px;
+	display: block;
+	border-style: dotted; 
+    
+    border-color: green;
+	
+
+}
+
+#wiadomosci
+{
+	display: block;
+	width: 100%;
+	margin-top: 3%;
+	border-color: black;
+	font-size: 35px;
+	margin-bottom: 3%;
+	border-style: dotted; 
+   
+    border-color: green;
+
+}
+#glowny
+{
+	background-color:white;
+	border: dotted green;
+	border-radius: 50px;
+	margin: 1%;
+		
+}
+
+figcaption
+{
+	font-size: 35px;
+}
+footer
+{
+	    font-size: 30px;
+	    margin-top: 20px;
+        background: green;
+        color: #fff;
+	    padding: 35px 0 0 0;
+        text-align: center;
+}
+#zalozyciele
+{
+	float:right;
+}
+@media (min-width:1091px) and (max-width:1820px)
+{
+	#navcontainer>ul#navlist li a
+	{
+		min-height: 100px;
+	}
+}
+
+@media all and (max-width:1090px) 
+{
+ul#navlist li
+	 {
+		 width: 100%;
+	 }
+	#logo
+	{
+		display:none;
+	
+	}
+	
+	fieldsetdset
+	{
+		width:100%;
+	}
+	.obrazki_do_formularza
+	{
+		display:none;
+	}
+}
+
+figure img
+{
+	width: 50%;
+	height:50%;
+	
+}
+.wiadomosciwydarzenia
+{
+	width:100%;
+}
+
+form
+{
+	
+	font-size: 25px;
+	height: 100%;
+	}
+label
+{
+	display: block;
+}
+#naglowek_formularza
+{
+	text-align: center;
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	background-color:white;
+	border: dotted green;
+	border-radius: 50px;
+	margin: 1%;
+}
+fieldset 
+{
+	border-style: dotted;
+	background-image: url(tlo_poboczne1.jpg);
+	background-size: cover;
+	width: 100%;
+	margin-bottom: 3%;
+	
+	font-size: 35px;
+	display: block;
+	
+}
+legend
+{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	background-color:white;
+	border: dotted green;
+	border-radius: 50px;
+}
+input
+{
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+}
+button:hover
+{
+	color:green;
+}
+button
+
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.obrazki_do_formularza
+{
+	float: right;
+
+	vertical-align: super;
+	padding: 5%;
+	margin-bottom: 5%;
+	
+}
+.formularz
+{
+	
+	font-size: 45px;
+	font-weight: bold;
+}
+.poradnie
+{
+	
+	background-image: url(tlo_poboczne1.jpg);
+	background-size: 100% 100%;
+}
+.opis_poradni
+{
+	font-size: 30px;
+}
+table
+{
+	border:1px solid black;
+	border-color:black;
+	text-align:center;
+	border-collapse:collapse;
+	width:50%;
+	text-align:center;
+	margin: auto;
+	
+}
+td 
+{
+	border:1px solid black;
+
+}
+th
+{
+	border:1px solid black
+}
+
+ .link_glowna
+{
+	background-color:white;
+	border: dotted green;
+	border-radius: 45px;
+	font-size:25px;
+	
+}
+.miniaturki
+{	
+	width: 20%;
+	height: 20%;
+	z-index: -1;
+	display: inline;
+}
+#duzy
+{
+position: fixed;
+
+
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+ margin: auto;
+ text-align:center;
+background-color: rgba(0, 0,0,0.5);
+padding: 10%;
+max-width:100%;
+max-height: 100%;
+}
+#przedmioty_szkolne
+{
+	
+	width: 30%;
+	height: 40%;
+}
+
+select
+{
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+}
+
+

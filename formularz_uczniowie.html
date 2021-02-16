@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Dla uczniów|Utwórz konto</title>
+<link rel="stylesheet" href="wyglad.css" type="text/css">
+<link rel="Shortcut icon" href="dziecko-nauka-języków-775x400.jpg">
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+<div id="glowny">
+      <header><strong>Ucz się skutecznie! - strona dla wszystkich, którzy uczą się i uczą</strong></header>
+ </div>
+
+     <form action="http://wierzba.wzks.uj.edu.pl/~18_kozhara/strona_glowna/formularz_uczniowie.html" method="post">
+          <header id="naglowek_formularza">Wypełnij formularz a pomożemy ci dobrać te najbardziej odpowiadające ci opcję!</header> 
+     <div class="formularz">
+	 <fieldset>
+	     <legend>Dane osobowe:</legend>
+             <label for="username">Imię:</label>
+                 <input type="text" name="uname" id="username">
+             <label for="lastname">Nazwisko:</label>
+                 <input type="text" name="lname" id="lastname" required>
+             <label for="telefon">Telefon kontaktowy:</label>
+                 <input type="text" name="telefon" id="telefon" required>
+             <label for="e-mail">Adres e-mail:</label>
+                 <input type="email" name="mail" id="e-mail" required>
+	 </fieldset>
+     </div>
+	 <div class="formularz">
+	  <fieldset>
+         <legend>Wybierz swoje miasto (albo najbliższe w pobliżu)</legend>
+              <select id="miasto">
+                 <option value="bialystok">Białystok</option>
+                 <option value="gdansk">Gdańsk</option>
+                 <option value="wroclaw">Wrocław</option>
+                 <option value="bydgoszcz">Bydgoszcz</option>
+                 <option value="torun">Toruń</option>
+                 <option value="lublin">Lublin</option>
+                 <option value="gorzow_wielkopolski">Gorzów Wielkoposki</option>
+                 <option value="zielona_gora">Zielona Góra</option>
+                 <option value="lodz">Łódź</option>
+                 <option value="krakow">Kraków</option>
+                 <option value="warszawa">Warszawa</option>
+                 <option value="opole">Opole</option>
+                  <option value="rzeszow">Rzeszów</option>
+                  <option value="katowice">Katowice</option>
+                  <option value="kielce">Kielce</option>
+                  <option value="olsztyn">Olsztyn</option>
+                  <option value="poznan">Poznań</option>
+                  <option value="szczecin">Szczecin</option>
+              </select>
+			  
+                 <img class="obrazki_do_formularza" src="mapa_polski.jpg" alt="mapa_polski">
+         	    	  
+		</fieldset>
+		 </div>
+         
+     
+     
+         <div class="formularz">
+		     <fieldset>
+                     <legend>Wybierz interesujące Cię przedmioty</legend>
+                 <label for="polski">Język polski</label>
+                     <input type="checkbox" id="polski" value="Język polski" checked>
+                 <label for="matematyka">Matematyka</label>
+                     <input type="checkbox" id="matematyka" value="Matematyka">
+                 <label for="geografia">Geografia</label>
+                     <input type="checkbox" id="geografia" value="Geografia">
+                 <label for="angielski">Angielski</label>
+                     <input type="checkbox" id="angielski" value="Angielski">
+                 <label for="inne_jezyki_obce">Inne języki obce</label>
+                     <input type="checkbox" id="inne_jezyki_obce" value="inne języki obce">
+                 <label for="biologia">Biologia</label>
+                     <input type="checkbox" id="biologia" value="Biologia">
+                 <label for="historia">Historia</label>
+                     <input type="checkbox" id="historia" value="Historia">
+                 <label for="techno_info">Technologia informacyjna</label>
+                     <input type="checkbox" id="techno_info" value="technologia_informacyjna">
+                 <label for="fizyka">Fizyka</label>
+                     <input type="checkbox" id="fizyka" value="fizyka">
+                 <label for="chemia">Chemia</label>
+                     <input type="checkbox" id="chemia" value="chemia">
+                 <label for="wos">Wiedza o społeczeństwie</label>
+                     <input type="checkbox" id="wos" value="wos">
+             
+           
+               
+             </fieldset>
+		 
+	     </div>
+              
+        
+             <div class="formularz">
+			      <fieldset>
+                 <legend>Jaką formę nauczania preferujesz?</legend>
+                     <label for="zdalna">Zdalna forma</label>
+                         <input type="radio" id="zdalna" value="A" checked>
+                     <label for="na_zywo">Na żywo z wykładowcą</label>
+                         <input type="radio" id="na_zywo" value="B">
+                     <label for="obie_opcje">Obydwie opcje są możliwe</label>
+                         <input type="radio" id="obie_opcje" value="B">
+                     <label for="brak_decyzji">Nie mogę się zdecydować/nie miałem(am) doświadczenia</label>
+                          <input type="radio" id="brak_decyzji" value="B">
+           
+                 <img class="obrazki_do_formularza" src="forma_uczeniasie.jpg" alt="zamyslona_dziewczyna">
+                 </fieldset>
+		     </div>
+         
+             <div class="formularz">
+			 <fieldset>
+                 <legend>Nauczanie grupowe czy indywidualne?</legend>
+                     <label for="grupa">Grupowe</label>
+                         <input type="radio" id="grupa" value="A" checked>
+                     <label for="indywid">Indywidualne</label>
+                          <input type="radio" id="indywid" value="B">
+                     <label for="obie_opcje1">Obydwie opcje są możliwe</label>
+                         <input type="radio" id="obie_opcje1" value="B">
+                     <label for="brak_decyzji1">Nie mogę się zdecydować/nie miałem(am) doświadczenia</label>
+                         <input type="radio" id="brak_decyzji1" value="B">
+         
+                 <img  class="obrazki_do_formularza" src="praca_grupowa.jpg" alt="rece_splecione_razem">
+			      </fieldset>
+			 </div>
+         
+         <button type="submit">Dalej</button>
+     </form>
+  <a class="link_glowna" href="index.html">Wróć do strony głównej</a>
+  </body>
+  </html>

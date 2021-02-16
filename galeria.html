@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Galeria zdjęć</title>
+<link rel="stylesheet" href="wyglad.css" type="text/css">
+ <script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+<link rel="Shortcut icon" href="dziecko-nauka-języków-775x400.png" />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+<body>
+<div id="glowny">
+   <header> Galeria zdjęć</header>
+ </div>
+ <section>
+	    <img class="miniaturki" src="1.jpg" alt="Dzieci_KPI">
+		<img class="miniaturki" src="2.jpg" alt="Dzieci_KPI2">
+		<img class="miniaturki" src="3.jpg" alt="Dzieci_KPI">
+		<img class="miniaturki" src="4.jpg" alt="Dzieci_KPI2">
+		<img class="miniaturki" src="5.jpg" alt="Dzieci_KPI">
+		<img class="miniaturki" src="6.jpg" alt="Dzieci_KPI2">
+		<img class="miniaturki" src="7.jpg" alt="Dzieci_KPI">
+		<img class="miniaturki" src="8.jpg" alt="Dzieci_KPI2">
+		<img class="miniaturki" src="9.jpg" alt="Dzieci_KPI">
+	    
+</section>
+<div id="duzy">
+			<img src="1.jpg" id="big" alt="Dzieci_KPI">
+		</div>				 
+		<script type="text/javascript">
+		
+		$('.miniaturki').click(function() 
+{
+	$('#duzy').show();
+	
+	
+	
+	
+	$('#big').attr('src',$(this).attr('src'));
+	});
+	
+	$('#duzy').click(function() 
+{
+	$('#duzy').hide();
+	
+}
+)
+;
+</script>
+</body>
+</html>

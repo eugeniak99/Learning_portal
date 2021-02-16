@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<meta charset="utf-8">
+<title>Dla rodziców</title>
+<link rel="stylesheet" href="pionowe_menu.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="Shortcut icon" href="dziecko-nauka-języków-775x400.png" />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<header>
+
+<div id="navcontainer">
+         <ul id="navlist">
+             <li><a href="index.html">Zaloguj się</a></li>
+             <li><a href="#">Utwórz konto</a></li>
+             <li><a id="zajecia" href="#">Zajęcia i kółka</a>
+			     <ul id="flip">
+				     <li><a href="sport.html">Sport</a></li>
+			         <li><a href="#">Języki obce</a></li>
+					 <li><a href="#">Natura</a></li>
+			         <li><a href="#">Nauki ścisłe</a></li>
+			     </ul>
+			 
+			 </li>
+             <li><a href="poradnie.html">Poradnie psychologiczne i pedagogiczne</a></li>
+			 <li><a href="info_rodzice.html"> Inne użyteczne informacje</a></li>
+			 <li><a href="index.html">Powrót do strony głównej</a></li>
+         </ul>
+
+         </div>
+    </header>
+<script>
+ $('#zajecia').click(function(){
+    $('#flip').slideToggle()
+	
+  });
+ </script>
+ </body>
+	</html>
